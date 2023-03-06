@@ -1,9 +1,10 @@
 
+ 
   .grid-container {
     display: grid;
     gap: 10px;
     height: auto;
-    background-color:rgb(238, 220, 210);
+    background-color:rgb(245, 165, 165);
     padding: 20px;
   }
   
@@ -11,7 +12,7 @@
     
     padding: 20px;
     
-  }
+  } 
   
   .item1 {
     grid-column: 1;
@@ -19,7 +20,7 @@
     height:auto;
     width: 250px;
     border-style:double;
-    background-color: rgb(238, 220, 210);
+    background-color: rgb(138, 234, 234);
     border-color: rgb(17, 12, 9);
     border-top-left-radius: 0px;
     align-items: flex-start;
@@ -35,6 +36,7 @@
   }
   .head{
     text-align: center;
+    font-family: "Sofia", sans-serif;
   }
   
   .item3 {
@@ -66,7 +68,8 @@
   .grid-item item2{
     font-family: arial;
     margin-left: 20px;
-  }.head{
+  }
+  .head{
     color:rgb(15, 1, 1);
   }
   .html{
@@ -76,11 +79,37 @@
     text-align: center;
   }
   .skill{
-    text-align:left;
+    text-align: center;
+     font-family: "Sofia", sans-serif;
+    
    
   }
+  .work{
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+   
+  }
+  .educ{
+    text-align: center;
+    
+  }
+  
+.duc{
+  text-align: center;
+  font-family: "Sofia", sans-serif;
+  
+}
+  .org{
+    text-align: center;
+    
+  }
+  .orga{
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+    
+  }
   .checked{
-    color: rgb(245, 248, 59);
+    color: rgb(221, 14, 240);
   }
   .summ{
     margin-top: 50px;
